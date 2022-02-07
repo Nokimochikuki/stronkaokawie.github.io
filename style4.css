@@ -1,0 +1,59 @@
+body,html{
+  margin:0;
+}
+
+* {
+  font-family: Arial;
+}
+
+#logo {
+  background: rgb(170, 120, 85);
+  width: 20%;
+  height: 120px;
+
+  float: left;
+}
+
+#menu {
+    background: rgb(170, 120, 85);
+    width: 80%;
+    height: 120px;
+    text-align: right;
+
+    float: left;
+}
+
+.header {
+  background: rgb(80, 45, 30);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  letter-spacing: 10px
+  clear: both;
+}
+
+.main {
+  background: rgb(170, 120, 85);
+  color: white;
+  width: 50%;
+  height: 631px;
+
+  float: left;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+a {
+  color: rgb(65, 100, 85);
+  padding: 25px;
+  margin: 10px;
+  font-size: 150%;
+  line-height: 100px;
+  border: 1px solid rgb(65, 100, 85);
+}
+
+li:nth-child(4) {
+  text-decoration: line-through;
+}
